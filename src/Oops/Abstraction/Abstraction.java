@@ -1,7 +1,7 @@
 package Oops.Abstraction;
 import java.security.AlgorithmConstraints;
 import java.util.Scanner;
-abstract class Polygn
+ abstract class Polygn
 {
     public abstract double area();
     public abstract double perimeter();
