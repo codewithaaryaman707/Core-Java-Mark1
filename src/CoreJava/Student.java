@@ -16,7 +16,8 @@ public class Student {
         this.roll_no=roll_no;
         this.div=div;
     }
-
+    public Student()
+    {}
     public String getName() {
         return name;
     }
