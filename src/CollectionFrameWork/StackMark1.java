@@ -16,7 +16,7 @@ public class StackMark1 {
 
 //        size of the stack
 
-        System.out.println(stack.size());
+//        System.out.println(stack.size());
 
 //        System.out.println(stack);
 
@@ -24,9 +24,16 @@ public class StackMark1 {
 //        System.out.println(stack.peek());
 
 //        pop function pops the value at the top of stack
-        System.out.println("The value popped out of the stack:"+stack.pop());
-        System.out.println(stack);
+//        System.out.println("The value popped out of the stack:"+stack.pop());
+//        System.out.println(stack);
 
+//        for checking wheather stack is empty or not
+//        System.out.println(stack.empty());
+
+//        for searching an object in stack
+        System.out.println("Enter the value to be searched in the Stack");
+        String value = s.next();
+        System.out.println(stack.search(value));
 
     }
 }

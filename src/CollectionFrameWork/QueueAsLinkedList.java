@@ -14,12 +14,13 @@ public class QueueAsLinkedList {
         }
         System.out.println(queue);
 
-//         peeks to 1 st element
+//         peeks the element at the head
         System.out.println(queue.peek());
 
 //        removing an element
-
-        queue.remove(1);
+//        queue.remove(1);
+        queue.poll();
         System.out.println(queue);
+
     }
 }
